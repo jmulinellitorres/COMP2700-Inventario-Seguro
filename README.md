@@ -1,6 +1,7 @@
 # Base educativa — COMP 2700
 
 **Estudiante:** Jose A. Mulinelli Torres
+
 **Curso:** COMP 2700 — Cybersecurity
 
 ## Descripción del proyecto
@@ -155,6 +156,13 @@ La inteligencia artificial se utilizó como herramienta de aprendizaje y apoyo. 
 
 8. Stack Overflow. (2011). _Delete an element from a dictionary._
    https://stackoverflow.com/questions/5844672/delete-an-element-from-a-dictionary
+
+## Limitación del programa y Sugerencia
+
+Una de las limitaciones actuales del programa es que no permite añadir nuevos productos al inventario. Aunque los usuarios autorizados pueden consultar los productos existentes y los administradores pueden modificar sus cantidades, todavía no existe una función para registrar nuevos artículos.
+
+Para mejorar esta limitación, implementaría una función que permita a los administradores añadir productos nuevos. Esta función solicitaría un identificador, un nombre y una cantidad inicial. También verificaría que el identificador no exista previamente, que el nombre no esté vacío y que la cantidad sea un número entero entre 0 y 1000.
+
 
 ## Límites del prototipo
 
